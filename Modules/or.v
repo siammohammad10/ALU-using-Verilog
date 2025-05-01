@@ -1,0 +1,7 @@
+// =========================== OR =========================== //
+
+module OR(result, opA, opB);
+    output [7:0] result;
+    input [7:0] opA, opB;
+    assign result = opA | opB; // bitwise OR
+endmodule
