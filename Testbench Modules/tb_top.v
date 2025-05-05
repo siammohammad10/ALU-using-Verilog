@@ -44,6 +44,6 @@ endmodule
 
 
 
-// iverilog -o tb_top.vvp top.v add.v sub.v and.v or.v xor.v invert.v shift_left.v shift_right.v nop.v mux.v tb_top.v
+// iverilog -o tb_top.vvp tb_top.v
 // vvp tb_top.vvp
 
